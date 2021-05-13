@@ -1,0 +1,203 @@
+@media (max-width: 900px) {
+    .diagnoses .heading {
+        padding: 0% 2% !important;
+        width: 100%;
+    }
+    .diagnoses .heading .title h2 {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+    .facts .head h2{
+        font-size: 24px !important;
+        font-weight: 700;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+
+
+.diagnoses {
+    text-align: center;
+}
+
+.diagnoses .heading {
+    animation-name: fadeInUp;
+    padding: 0% 15%;
+    width: 100%;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.diagnoses .heading .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.diagnoses .heading .desc {
+    padding: 0% 3%;
+}
+.diagnoses .heading .desc p{
+    color: gray;
+}
+.diagnoses .diagnose-img .row {
+    padding: 2% 8%;
+}
+
+
+.d-block :hover{
+    background: black !important;
+    color: white;
+}
+
+
+.diagnoses .diagnose-img .imgs1 .content {
+    background: linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)),url(https://www.wildermanfund.org/hubfs/Assets%202018/depression.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.diagnoses .diagnose-img .imgs2 .content {
+    background-image:linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)), url(https://www.wildermanfund.org/hubfs/175545935.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diagnoses .diagnose-img .imgs3 .content {
+    background-image: linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)),url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_169647155.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diagnoses .diagnose-img .imgs4 .content {
+    background-image: linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)),url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_83231545.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diagnoses .diagnose-img .imgs5 .content {
+    background-image: linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)),url(https://www.wildermanfund.org/hubfs/Assets%202018/depression.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diagnoses .diagnose-img .imgs6 .content {
+    background-image: linear-gradient(rgba(78,232,99,0.5),rgba(78,232,99,0.5)),url(https://www.wildermanfund.org/hubfs/Assets%202018/176157090.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.diagnoses .diagnose-img .content {
+    height: 100%;
+    display: block;
+    color: #fff;
+    padding: 9% 5%;
+    border-radius: 5px;
+
+}
+
+.diagnoses .diagnose-img .content-text a{
+    color: rgb(238, 234, 28);
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+.diagnoses .diagnose-img .content-text a::after {
+    content: ">>";
+}
+
+.facts{
+    padding: 10% 0%;
+}
+.facts .head{
+    text-align: center;
+    animation-name: fadeInUp;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+   
+}
+.facts .testimonial {
+    max-width: 463px;
+    margin: 0 auto;
+    float: none;
+}
+
+.slick-center .testimony-text {
+    position: relative;
+    padding: 25px 30px 25px 64px;
+    background-color: #262626;
+    border-radius: 4px;
+}
+.slick-center .testimony-text blockquote{
+    color: #fff !important;
+}
+
+.slick-center .testimony-text:after {
+    background-image: url(https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/Bitmap.png?t=1517565258082);
+    position: absolute;
+    content: '';
+    bottom: -18px;
+    left: 15px;
+    height: 18px;
+    z-index: 99999;
+    background-size: contain;
+    width: 58px;
+    background-repeat: no-repeat;
+}
+
+.facts .testimony-text blockquote {
+    color: black;
+    margin: 0 auto;
+    opacity: 1;
+    
+}
+
+.slick-center .testimony-text blockquote::before{
+    background-image: url(https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/active-quotes.png);
+    background-repeat: no-repeat;
+    top: 12px;
+}
+.facts blockquote::before {
+    position: absolute;
+    content: '';
+    background-image: url(https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/quotes.svg);
+    width: 29px;
+    height: 23px;
+    left: 18px;
+    top: -11px;
+}
+
+.slick-center .testimonial .below-quote-mod {
+    margin: 0px;
+    padding-top: 25px;
+    display: block !important;
+}
+
+.slick-center .testimonial .about {
+    padding-top: 6px;
+
+}
+.slick-center .testimonial .about h5{
+    font-size: 14px;
+
+}
+.facts .testimonial .below-quote-mod {
+    display: none;
+}
